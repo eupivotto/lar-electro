@@ -1,4 +1,5 @@
 import Router from './routes/index.router';
+import { GlobalStyle } from './styles/global';
 
 
 export default function App () {
@@ -9,6 +10,7 @@ export default function App () {
       <div>
         
         <Router />
+        <GlobalStyle />
 
       </div>
       
